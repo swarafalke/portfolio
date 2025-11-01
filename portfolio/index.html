@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 3 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Icon Section Styling */
+    .skills-section {
+      padding: 50px 0;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+
+    .skills-section h2 {
+      margin-bottom: 30px;
+    }
+
+    .skill-box {
+      display: inline-block;
+      width: 180px;
+      padding: 20px;
+      margin: 10px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .skill-box:hover {
+      background-color: #e8f4ff;
+      transform: scale(1.05);
+    }
+
+    .skill-box i {
+      font-size: 40px;
+      color: #337ab7;
+      margin-bottom: 10px;
+    }
+
+    .skill-name {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">MyPortfolio</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="jumbotron text-center" style="margin-top: 60px;">
+    <div class="container">
+      <h1>Hello, I'm Swara Falke</h1>
+      <p>Web Designer & Developer.</p>
+      <p><a href="portfolio.html" class="btn btn-primary btn-lg">View My Work</a></p>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="container text-center">
+    <h2>About Me</h2>
+    <p>I’m a creative web developer specializing in clean, responsive design using HTML, CSS, and JavaScript.
+     I have worked on a few projects.</p>
+  </div>
+
+  <hr>
+
+  <!-- Skills / Icons Section -->
+  <div class="skills-section">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skill-box">
+        <i class="glyphicon glyphicon-console"></i>
+        <div class="skill-name">HTML</div>
+      </div>
+      <div class="skill-box">
+        <i class="glyphicon glyphicon-pencil"></i>
+        <div class="skill-name">CSS</div>
+      </div>
+      <div class="skill-box">
+        <i class="glyphicon glyphicon-flash"></i>
+        <div class="skill-name">JavaScript</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <p>© 2025 Swara Falke</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
